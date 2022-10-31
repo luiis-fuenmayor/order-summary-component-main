@@ -19,10 +19,12 @@ body{
     background-color: var(--Pale-blue);
     padding-top: 5em;
     display: grid;
+    padding-bottom: 5em;
 
 }
 
 .main-container{
+    font-family: 'Red Hat Display', sans-serif;
     position:relative;
     margin: auto;
     height: 570px;
@@ -39,7 +41,6 @@ body{
     text-align: center;
     padding-top: 1.2em;
     padding-bottom: .8em;
-    font-family: 'Red Hat Display', sans-serif;
     font-size: 22px;
     font-weight: 900;
     color: var(--Dark-blue);
@@ -47,7 +48,7 @@ body{
 .info{
     font-size: 15px;
     text-align: center;
-    font-family: 'Red Hat Display', sans-serif;
+
     font-weight: 300;
     color: var(--Desaturated-blue);
     margin-left: 2.3em;
@@ -68,20 +69,61 @@ body{
     margin-bottom: 1em;
 }
 .plan-p_price{
-    border: 1px solid black;
-    padding-top: .3em;
-    font-family: 'Red Hat Display', sans-serif;
     font-size: 15px;
     line-height: 1.5em;
     text-align: center;
     margin-right: 1em;
     
-    
 }
-.plan img{
-    border: 1px solid black;
-    
+.plan-period b{
+    color: var(--Dark-blue);
+    font-weight: 900;
 }
-.plan-period{
-
+.plan-price{
+    color: var(--Desaturated-blue);
+    font-weight: 400;
+}
+.change{
+    padding-top: .8em;
+    padding-right: .5em;
+    font-size: 14px;
+    color: var(--Bright-blue);
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.change:hover{
+    color:#766cf1;
+}
+button{
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--white);
+    background-color: var(--Bright-blue);
+    border: 1px solid var(--Bright-blue);
+    border-radius: .8em;
+    width: 275px;
+    height: 50px;
+    margin-top: .5em;
+    margin-left: 1.8em;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #766cf1;
+    border: 1px solid #766cf1;
+}
+.cancel{
+    margin-top: 1.5em;
+    margin-left: 8em;
+    font-size: 15px;
+    font-weight: 900;
+    color: var(--Desaturated-blue);
+    cursor: pointer;
+}
+.cancel:hover{
+    color: var(--Dark-blue);
+    font-weight: 900;
+}
+.attribution{
+    display: none;
 }
